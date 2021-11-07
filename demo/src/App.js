@@ -1,5 +1,6 @@
-import { Helmet } from "react-helmet";
-import "./App.css";
+import * as React from "react";
+import { Head } from "react-static";
+import "./app.css";
 
 function App() {
   const openGraphData = {
@@ -12,14 +13,13 @@ function App() {
   };
   return (
     <div className="App">
-      <Helmet>
-        <meta name="twitter:card" content="summary" />
+      <Head>
         <meta property="og:title" content={openGraphData.title} />
-        <meta property="description" content={openGraphData.description} />
         <meta property="og:description" content={openGraphData.description} />
         <meta property="og:url" content={openGraphData.url} />
         <meta property="og:image" content={openGraphData.image} />
-      </Helmet>
+        <meta name="twitter:card" content="summary" />
+      </Head>
       <h1>
         This page features the Open Graph protocol markup for sharing previews.
       </h1>

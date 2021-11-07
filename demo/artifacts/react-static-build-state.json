@@ -1,0 +1,54 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": 1,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "paths": {
+    "ROOT": "/home/john/code/github/open-graph-sharing-previews/demo",
+    "SRC": "/home/john/code/github/open-graph-sharing-previews/demo/src",
+    "DIST": "/home/john/code/github/open-graph-sharing-previews/demo/dist",
+    "ASSETS": "/home/john/code/github/open-graph-sharing-previews/demo/dist",
+    "PLUGINS": "/home/john/code/github/open-graph-sharing-previews/demo/plugins",
+    "TEMP": "/home/john/code/github/open-graph-sharing-previews/demo/tmp",
+    "ARTIFACTS": "/home/john/code/github/open-graph-sharing-previews/demo/artifacts",
+    "PUBLIC": "/home/john/code/github/open-graph-sharing-previews/demo/public",
+    "NODE_MODULES": "/home/john/code/github/open-graph-sharing-previews/demo/node_modules",
+    "EXCLUDE_MODULES": "/home/john/code/github/open-graph-sharing-previews/demo/node_modules",
+    "PACKAGE": "/home/john/code/github/open-graph-sharing-previews/demo/package.json",
+    "HTML_TEMPLATE": "/home/john/code/github/open-graph-sharing-previews/demo/dist/index.html",
+    "STATIC_DATA": "/home/john/code/github/open-graph-sharing-previews/demo/dist/staticData"
+  },
+  "plugins": [
+    "/home/john/code/github/open-graph-sharing-previews/demo"
+  ],
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
