@@ -18,7 +18,7 @@ function App() {
         <meta property="og:description" content={openGraphData.description} />
         <meta property="og:url" content={openGraphData.url} />
         <meta property="og:image" content={openGraphData.image} />
-        {/* <meta name="twitter:card" content="summary" /> */}
+        <meta name="twitter:card" content="summary" />
       </Head>
       <h1>
         This page features the Open Graph protocol markup for sharing previews.
