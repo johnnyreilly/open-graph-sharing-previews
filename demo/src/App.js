@@ -5,18 +5,18 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <meta property="og:title" content="The Rock" />
-        <meta property="og:type" content="video.movie" />
+        <meta property="og:title" content="Sharing previews" />
+        <meta property="og:description" content="This is a page that demonstrates sharing previews using the Open Graph protocol" />
         <meta
           property="og:url"
-          content="https://www.imdb.com/title/tt0117500/"
+          content="https://johnnyreilly.github.io/open-graph-sharing-previews/"
         />
         <meta
           property="og:image"
-          content="https://ia.media-imdb.com/images/rock.jpg"
+          content="https://upload.wikimedia.org/wikipedia/commons/7/72/Open_Graph_protocol_logo.png"
         />
       </Helmet>
-      <h1>This page features the Open Graph protocol markup for [The Rock on IMDB](https://www.imdb.com/title/tt0117500/).</h1>
+      <h1>This page features the Open Graph protocol markup for sharing previews.</h1>
       <h2>Share it and see!</h2>
     </div>
   );
