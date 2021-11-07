@@ -16,7 +16,8 @@ function App() {
           content="https://ia.media-imdb.com/images/rock.jpg"
         />
       </Helmet>
-      <h1>This page is shareable!</h1>
+      <h1>This page features the Open Graph protocol markup for [The Rock on IMDB](https://www.imdb.com/title/tt0117500/).</h1>
+      <h2>Share it and see!</h2>
     </div>
   );
 }
