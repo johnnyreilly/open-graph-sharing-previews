@@ -15,6 +15,7 @@ function App() {
           property="og:image"
           content="https://upload.wikimedia.org/wikipedia/commons/7/72/Open_Graph_protocol_logo.png"
         />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <h1>This page features the Open Graph protocol markup for sharing previews.</h1>
       <h2>Share it and see!</h2>
